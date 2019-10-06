@@ -3,7 +3,16 @@
 ####‘virtualenv venv’ 创建虚拟环境
 ####‘source venv/Scripts/activate’ 激活虚拟环境
 ####‘deactivate’ 退出虚拟环境
-####'pip install flask'
+##  虚拟环境下安装flask框架
+####'pip install flask'  
+##  git将代码提交
+####1、将文件提交到缓存区'git add 文件名'
+####2、将修改提交到本地仓库'git commit -m "提交说明描述"'
+####3、关联到自己GitHub上的仓库 
+#### 'git remote add origin https://github.com/用户名/仓库名.git'
+#### https://github.com/datachenshihui/flask.git
+####4、同步到远程仓库'git push -u origin master'
+
 
 ##  对象（程序实例：Flask类的对象）
 from flask import Flask
