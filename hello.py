@@ -1,3 +1,10 @@
+##  在开发之前，我们是用虚拟环境
+####‘virtualenv --version’ 查看有没有虚拟环境的第三方工具
+####‘virtualenv venv’ 创建虚拟环境
+####‘source venv/Scripts/activate’ 激活虚拟环境
+####‘deactivate’ 退出虚拟环境
+####'pip install flask'
+
 ##  对象（程序实例：Flask类的对象）
 from flask import Flask
 app = Flask(__name__)
